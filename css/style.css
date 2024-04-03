@@ -1,3 +1,6 @@
+@import 'animation.css';
+@import 'font.css';
+
 * {
   box-sizing: border-box;
 }
@@ -12,19 +15,6 @@ body {
 
 }
 
-@keyframes drop-in {
-  from {
-    transform:
-      translateY(-100%);
-    opacity: 0;
-  }
-
-  to {
-    transform:
-      translateY(0%);
-    opacity: 1;
-  }
-}
 
 .grid-parent {
 
@@ -32,39 +22,5 @@ body {
   align-items: center;
   justify-content: space-evenly;
 
-
-}
-
-.kid {
-
-  animation: drop-in;
-  animation-duration: 1s;
-  font-family: Arial, Helvetica, sans-serif;
-
-  white-space: pre;
-
-}
-
-.harmony {
-
-  animation: drop-in;
-
-  animation-duration: 1s;
-
-  font-family: "commissioner-variable", sans-serif;
-  font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" 100, "wght" 100;
-  font-size: 3em;
-}
-
-.kpop {
-
-  animation: drop-in;
-
-  animation-duration: 1s;
-
-
-  font-family: "gluten-variable", sans-serif;
-  font-variation-settings: "slnt" -500, "wght" 150;
-  font-size: 2.5em;
 
 }
