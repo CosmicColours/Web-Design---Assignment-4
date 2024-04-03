@@ -8,9 +8,43 @@ body {
   width: 100%;
   min-height: 100vh;
   background-color: white;
-  /* 
-  display: flex;
+
+
+
+}
+
+@keyframes drop-in {
+  from {
+    transform:
+      translateY(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform:
+      translateY(0%);
+    opacity: 1;
+  }
+}
+
+.grid-parent {
+
+  display: grid;
   align-items: center;
-  justify-content: space-evenly; 
-  */
+  justify-content: space-evenly;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.lyrics {
+
+  animation: drop-in;
+
+  animation-duration: 1s;
+
+  font-family: "commissioner-variable", sans-serif;
+  font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" 0, "wght" 100;
+  /* font-family: "gluten-variable", sans-serif;
+  font-variation-settings: "slnt" 0, "wght" 100; */
 }
