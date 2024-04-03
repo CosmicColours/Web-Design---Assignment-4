@@ -1,33 +1,48 @@
 .kid {
+    white-space: pre;
 
     animation: drop-in;
     animation-duration: 1s;
-    font-family: Arial, Helvetica, sans-serif;
 
-    white-space: pre;
+
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .harmony {
 
-    animation: drop-in;
+    white-space: pre;
 
+    animation: drop-in;
     animation-duration: 1s;
 
     font-family: "commissioner-variable", sans-serif;
-    font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" 100, "wght" 100;
+    font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -1, "wght" 100;
     font-size: 3em;
 }
 
-.kpop {
+.kpop {}
+
+.kpop h2 {
+    white-space: pre;
 
     animation: drop-in;
-
     animation-duration: 1s;
 
+    font-family: "gluten-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 100;
+    font-size: 2em;
+
+}
+
+.kpop h1 {
+    white-space: pre;
+
+    animation: drop-in;
+    animation-duration: 1s;
 
     font-family: "gluten-variable", sans-serif;
-    font-variation-settings: "slnt" -500, "wght" 150;
+    font-variation-settings: "slnt" -500, "wght" 120;
     font-size: 2.5em;
 
 }
