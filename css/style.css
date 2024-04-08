@@ -1,5 +1,6 @@
 @import 'animation.css';
 @import 'font.css';
+@import 'timing.css';
 
 * {
   box-sizing: border-box;
@@ -10,16 +11,35 @@ body {
   margin: 0;
   width: 100%;
   min-height: 100vh;
-  background-color: white;
 
 
 }
 
 
-.grid-parent {
+.grid-parent1 {
 
   display: grid;
-  align-items: center;
+
+}
+
+
+.grid-parent2 {
+
+  display: grid;
+  align-items: flex-end;
+  /* justify-content: space-evenly; */
+
+  background-color: peachpuff;
+
+
+  padding: 5%;
+  padding-left: 40%;
+}
+
+.grid-parent3 {
+
+  display: grid;
+  align-items: flex-end;
   justify-content: space-evenly;
 
 

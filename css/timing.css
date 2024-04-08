@@ -1,0 +1,55 @@
+.grid-parent1:nth-child(1) {
+    animation-fill-mode: forwards;
+    animation-name: vanishIn;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+.grid-parent1:nth-child(2) {
+    animation-fill-mode: forwards;
+    animation-name: vanishIn;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+
+.grid-parent1:nth-child(3) {
+    animation-fill-mode: forwards;
+    animation-name: vanishIn;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+.grid-parent1:nth-child(4) {
+    animation-fill-mode: forwards;
+    animation-name: vanishIn;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+
+.grid-parent1:nth-child(5) {
+    animation-fill-mode: forwards;
+    animation-name: vanishIn;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+}
+
+.grid-parent1:nth-child(6) {
+    animation-fill-mode: forwards;
+    animation-name: vanishIn;
+    animation-duration: 1s;
+    animation-delay: 4s;
+}
+
+.grid-parent1:nth-child(7) {
+    animation-fill-mode: forwards;
+    animation-name: vanishIn;
+    animation-duration: 1s;
+    animation-delay: 5s;
+}
+
+.section1 {
+    animation-fill-mode: forwards;
+    animation-name: rotateRight;
+    animation-duration: 2s;
+    animation-delay: 6s;
+}

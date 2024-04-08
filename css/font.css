@@ -1,24 +1,43 @@
 .kid {
-    white-space: pre;
+    /* white-space: pre; */
+    display: grid;
 
-    animation: drop-in;
-    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+
 
 
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+
+    margin: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5%;
+
+    background-color: black;
+    color: black;
 
 }
 
+
 .harmony {
 
-    white-space: pre;
-
-    animation: drop-in;
-    animation-duration: 1s;
 
     font-family: "commissioner-variable", sans-serif;
     font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -1, "wght" 100;
     font-size: 3em;
+
+
+    text-align: center;
+}
+
+.harmony:hover {
+
+    animation: widen;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
 }
 
 .kpop {}
