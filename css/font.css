@@ -34,10 +34,38 @@
 
 .harmony:hover {
 
-    animation: widen;
+    /* animation: widen;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; */
+
+}
+
+.lift:hover {
+
+    animation: lifting;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.beat:hover {
+
+    animation: beating;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+}
 
+.hammer:hover {
+
+    animation: sledge;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.beef:hover {
+
+    animation: widen;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .kpop {}

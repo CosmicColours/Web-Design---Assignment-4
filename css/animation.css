@@ -12,17 +12,6 @@
     }
 }
 
-@keyframes widen {
-    0% {
-        font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -1, "wght" 100;
-    }
-
-    100% {
-        font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -1, "wght" 400;
-    }
-
-}
-
 @keyframes vanishIn {
     0% {
         opacity: 0;
@@ -39,6 +28,100 @@
         transform: scale(1, 1);
         filter: blur(0px);
         color: white;
+    }
+}
+
+@keyframes vanishInLink {
+    0% {
+        opacity: 0;
+        transform-origin: 50% 50%;
+        transform: scale(2, 2);
+        filter: blur(90px);
+        color: black;
+
+    }
+
+    100% {
+        opacity: 1;
+        transform-origin: 50% 50%;
+        transform: scale(1, 1);
+        filter: blur(0px);
+        color: palevioletred;
+    }
+}
+
+@keyframes widen {
+    0% {
+        font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -1, "wght" 100;
+    }
+
+    100% {
+        font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -9, "wght" 700;
+    }
+
+}
+
+@keyframes lifting {
+
+    0% {
+        transform: translateY(0px);
+    }
+
+    30% {
+
+        transform: translateY(-30px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    100% {
+
+        transform: translateY(-60px);
+    }
+}
+
+@keyframes beating {
+
+    0% {
+        transform: scale(1);
+        font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -1, "wght" 100;
+    }
+
+    20% {
+        transform: scale(1.1);
+        font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -1, "wght" 400;
+    }
+
+    40% {
+        transform: scale(1);
+        font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -1, "wght" 100;
+    }
+
+    60% {
+        transform: scale(1.1);
+        font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -1, "wght" 400;
+    }
+}
+
+
+@keyframes sledge {
+
+    0% {
+        transform: scale(1);
+        font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -1, "wght" 100;
+    }
+
+
+    20% {
+        transform: scale(1, 0.3);
+        font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -10, "wght" 500;
+    }
+
+    100% {
+        transform: scale(1, 0.6);
+        font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -10, "wght" 300;
     }
 }
 
