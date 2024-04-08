@@ -85,3 +85,81 @@
     animation-duration: 1s;
     animation-delay: 11s;
 }
+
+.gen1:nth-child(1) {
+
+    animation-delay: 0s;
+
+}
+
+.gen1:nth-child(2) {
+
+    animation-delay: 0.4s;
+
+}
+
+.gen1:nth-child(3) {
+
+    animation-delay: 0.8s;
+
+}
+
+.gen2:nth-child(4) {
+
+    animation-delay: 4.6s;
+
+}
+
+.gen2:nth-child(5) {
+
+    animation-delay: 5s;
+
+}
+
+.gen2:nth-child(6) {
+
+    animation-delay: 5.4s;
+
+}
+
+.gen3:nth-child(7) {
+
+    animation-delay: 9.4s;
+
+}
+
+.gen3:nth-child(8) {
+
+    animation-delay: 9.8s;
+
+}
+
+.gen3:nth-child(9) {
+
+    animation-delay: 10.3s;
+
+}
+
+
+.gen4:nth-child(10) {
+
+    animation-delay: 14s;
+
+}
+
+.gen4:nth-child(11) {
+
+    animation-delay: 14.4s;
+
+}
+
+.gen4:nth-child(12) {
+
+    animation-delay: 14.8s;
+
+}
+
+.all:nth-child(13){
+    animation-delay: 19s;
+
+}

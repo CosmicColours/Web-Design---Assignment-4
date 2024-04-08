@@ -55,22 +55,13 @@ body {
   text-decoration: none;
 }
 
-.grid-parent2 a {
-
-  font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -8;
-}
-
-a:hover {
-  text-decoration: underline;
-
-}
 
 .heads {
 
   display: grid;
 
   background-color: antiquewhite;
-  height: 40vh;
+  height: 30vh;
 }
 
 .left{
@@ -93,4 +84,79 @@ a:hover {
 .border {
   background-color: palevioletred;
   padding: 2vh;
+}
+
+.gen1 {
+  color: rgb(117, 0, 226);
+
+  animation: slideLeftReturn;
+  animation-duration: 4s;
+
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+
+  transform: translateX(-1000px);
+}
+
+
+
+.gen2 {
+
+
+  color: rgb(218, 32, 110);
+
+  animation: slideLeftReturn;
+  animation-duration: 4s;
+
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+
+  transform: translateX(-1000px);
+}
+
+
+
+.gen3 {
+
+  color: rgb(255, 131, 73);
+
+  
+  animation: slideLeftReturn;
+  animation-duration: 4s;
+
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+
+  transform: translateX(-1000px);
+}
+
+
+
+.gen4 {
+
+  color: rgb(255, 131, 73);
+
+  
+  animation: slideLeftReturn;
+  animation-duration: 4s;
+
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+
+  transform: translateX(-1000px);
+}
+
+.all{
+  color: rgb(36, 36, 36);
+
+      
+  animation: slideLeftReturnStay;
+  animation-duration: 4s;
+
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+
+  transform: translateX(-1000px);
+
+
 }

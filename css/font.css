@@ -70,8 +70,9 @@
 
 .kpop {
     display: grid;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-evenly;
+    text-align: center;
 
     font-family: "nanum-pen", sans-serif;
 
@@ -85,54 +86,71 @@
 
 .kpop h2 {
 
-    animation: drop-in;
-    animation-duration: 1s;
-
     margin: 0;
     font-weight: 600;
-    font-size: 2.5em;
+    font-size: 2em;
 
 }
 .kpop h3 {
 
-    animation: drop-in;
-    animation-duration: 1s;
-
     margin: 0;
     font-weight: 400;
-    font-size: 2.5em;
+    font-size: 2em;
 
 }
 
 .kpop h1 {
 
     margin: 0;
-    animation: drop-in;
-    animation-duration: 1s;
+
 
     font-weight: 400;
+    font-size: 2.5em;
+
+}
+
+.grid-parent2 a {
+
+    font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -8;
+  }
+  
+  .all a {
+  
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  
+  }
+
+footer a {
+    font-family: "nanum-pen", sans-serif;
     font-size: 3em;
+    font-style: normal;
+
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+
+    animation-delay: 20s;
+
+    animation: slideLeftReturnStay;
+    animation-duration: 4s;
+  
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+
+    transform: translateX(-1000px);
+
 
 }
 
-.gen1 {
-    color: rgb(117, 0, 226);
-}
 
-.gen2 {
+footer {
 
-    display: none;
-    color: rgb(218, 32, 110);
-}
-
-.gen3 {
-
-    display: none;
-    color: rgb(255, 131, 73);
-}
-
-.all{
-
-    display: none;
-    color: rgb(36, 36, 36);
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
 }
