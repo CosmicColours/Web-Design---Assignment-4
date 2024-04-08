@@ -68,28 +68,71 @@
     animation-fill-mode: forwards;
 }
 
-.kpop {}
+.kpop {
+    display: grid;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+    font-family: "nanum-pen", sans-serif;
+
+    font-style: normal;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+    white-space: break-spaces;
+}
 
 .kpop h2 {
-    white-space: pre;
 
     animation: drop-in;
     animation-duration: 1s;
 
-    font-family: "gluten-variable", sans-serif;
-    font-variation-settings: "slnt" 0, "wght" 100;
-    font-size: 2em;
+    margin: 0;
+    font-weight: 600;
+    font-size: 2.5em;
+
+}
+.kpop h3 {
+
+    animation: drop-in;
+    animation-duration: 1s;
+
+    margin: 0;
+    font-weight: 400;
+    font-size: 2.5em;
 
 }
 
 .kpop h1 {
-    white-space: pre;
 
+    margin: 0;
     animation: drop-in;
     animation-duration: 1s;
 
-    font-family: "gluten-variable", sans-serif;
-    font-variation-settings: "slnt" -500, "wght" 120;
-    font-size: 2.5em;
+    font-weight: 400;
+    font-size: 3em;
 
+}
+
+.gen1 {
+    color: rgb(117, 0, 226);
+}
+
+.gen2 {
+
+    display: none;
+    color: rgb(218, 32, 110);
+}
+
+.gen3 {
+
+    display: none;
+    color: rgb(255, 131, 73);
+}
+
+.all{
+
+    display: none;
+    color: rgb(36, 36, 36);
 }

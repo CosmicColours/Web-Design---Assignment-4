@@ -38,9 +38,59 @@ body {
 
 .grid-parent3 {
 
-  display: grid;
+  /* display: grid;
   align-items: flex-end;
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
 
 
+}
+
+.grid-parent11 a {
+  animation-fill-mode: forwards;
+  animation-name: vanishInLink;
+  animation-duration: 1s;
+  animation-delay: 11s;
+
+  color: black;
+  text-decoration: none;
+}
+
+.grid-parent2 a {
+
+  font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -8;
+}
+
+a:hover {
+  text-decoration: underline;
+
+}
+
+.heads {
+
+  display: grid;
+
+  background-color: antiquewhite;
+  height: 40vh;
+}
+
+.left{
+  grid-column: 1;
+  align-items: end;
+  text-align: end;
+
+}
+
+.middle {
+  grid-column: 2;
+  align-items: center;
+  text-align: center;
+}
+
+.right {
+  grid-column: 3;
+}
+
+.border {
+  background-color: palevioletred;
+  padding: 2vh;
 }
