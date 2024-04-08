@@ -109,21 +109,6 @@
 
 }
 
-.grid-parent2 a {
-
-    font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -8;
-  }
-  
-  .all a {
-  
-    color: red;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  
-  }
 
 footer a {
     font-family: "nanum-pen", sans-serif;
@@ -153,4 +138,32 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
+}
+
+
+.beat a {
+
+    color: red;
+    font-variation-settings: "VOLM" 0, "FLAR" 0, "slnt" -8;
+}
+
+.hammer a {
+
+    font-family: "nanum-pen", sans-serif;
+    text-decoration: none;
+    font-size: 1.3em;
+
+    color: rgb(117, 0, 226);
+}
+
+  
+.all a {
+  
+    color: red;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+  
 }
