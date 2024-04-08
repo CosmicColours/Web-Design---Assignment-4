@@ -76,7 +76,7 @@ body {
   height: 30vh;
 }
 
-.left{
+.left {
   background-color: rgb(174, 140, 253);
 
   grid-column: 1;
@@ -136,7 +136,7 @@ body {
 
   color: rgb(255, 131, 73);
 
-  
+
   animation: slideLeftReturn;
   animation-duration: 4s;
 
@@ -152,7 +152,7 @@ body {
 
   color: rgb(255, 131, 73);
 
-  
+
   animation: slideLeftReturn;
   animation-duration: 4s;
 
@@ -162,10 +162,10 @@ body {
   transform: translateX(-1000px);
 }
 
-.all{
+.all {
   color: rgb(36, 36, 36);
 
-      
+
   animation: slideLeftReturnStay;
   animation-duration: 4s;
 
