@@ -117,8 +117,13 @@ footer a {
 
 
 footer {
-
-
+    font-family: "nanum-pen", sans-serif;
+    font-size: 3em;
+    font-style: normal;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 
