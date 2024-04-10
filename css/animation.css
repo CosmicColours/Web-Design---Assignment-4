@@ -220,3 +220,61 @@
     }
 
 }
+
+@keyframes greyPurple {
+
+    0%{
+        background-color: rgb(174, 140, 253);
+    }
+
+    80%{
+        background-color: rgb(174, 140, 253);
+    }
+
+    100%{
+
+        background-color: grey;
+    }
+}
+
+
+@keyframes greyPink {
+
+    0%{
+        background-color: rgb(158, 158, 158);
+    }
+
+    10%{
+        background-color: rgb(247, 148, 170);   
+    }
+
+    80%{
+        background-color: rgb(247, 148, 170);
+    }
+
+    100%{
+
+        background-color: rgb(158, 158, 158);
+    }
+}
+
+
+@keyframes greyYellow {
+
+    0%{
+        background-color: rgb(182, 182, 182);
+    }
+
+    10%{
+        background-color:  rgb(255, 230, 175);  
+    }
+
+    80%{
+        background-color:  rgb(255, 230, 175);
+    }
+
+    100%{
+
+        background-color: rgb(182, 182, 182);
+    }
+}

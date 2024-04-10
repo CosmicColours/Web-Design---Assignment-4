@@ -72,29 +72,49 @@ body {
 
   display: grid;
 
-  background-color: antiquewhite;
   height: 30vh;
 }
 
 .left {
-  background-color: rgb(174, 140, 253);
+
 
   grid-column: 1;
   align-items: end;
   text-align: end;
 
+  animation: greyPurple;
+  animation-duration: 4s;
+
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+
 }
 
 .middle {
-  background-color: rgb(247, 148, 170);
+  background-color: rgb(158, 158, 158);
 
   grid-column: 2;
   align-items: center;
   text-align: center;
+
+  animation: greyPink;
+  animation-duration: 4s;
+
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-delay: 4.8s;
 }
 
 .right {
+  background-color: rgb(182, 182, 182);
   grid-column: 3;
+
+  animation: greyYellow;
+  animation-duration: 10s;
+
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-delay: 9.4s;
 }
 
 .border {
