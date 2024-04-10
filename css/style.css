@@ -196,3 +196,70 @@ body {
 
 
 }
+
+button {   
+
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(247, 0, 0);
+  padding: 5%;
+
+  filter: drop-shadow(4px 4px 3px #3131352c);
+  border-radius: 15px;
+  box-shadow: inset -2px -2px 8px #46000059;
+
+  margin: 3em;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+button:hover {   
+
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(190, 0, 0);
+  padding: 5%;
+
+  filter: drop-shadow(1px 1px 3px #3131352c);
+  border-radius: 15px;
+  box-shadow: inset 2px 2px 6px #00000071;
+
+}
+
+.playSVG {
+
+  filter: invert(97%) sepia(92%) saturate(30%) hue-rotate(348deg) brightness(108%) contrast(100%)
+  drop-shadow(2px 2px 3px #31313525);
+
+
+  height: 80px;
+  width: 200px;
+  
+
+}
+
+.play {
+
+  border: none;
+
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+
+}
+
+.start {
+
+  font-family: "nanum-pen", sans-serif;
+  font-size: 1.5em;
+  font-style: normal;
+  
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
